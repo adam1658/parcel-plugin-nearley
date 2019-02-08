@@ -2,11 +2,17 @@
 
 A parcel plugin that enables nearley grammar support
 
-## Installation
+## Usage
 
-```bash
-npm install parcel-plugin-nearley
-```
+1. Install the plugin:
+    ```bash
+    npm install parcel-plugin-nearley
+    ```
+
+2. Now you can import *.ne files from javascript:
+    ```js
+    import grammar from './grammar.ne';
+    ```
 
 ## Development
 
